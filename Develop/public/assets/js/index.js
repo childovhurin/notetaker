@@ -1,3 +1,6 @@
+const fs = require("fs");
+router.use(express.static("public"));
+
 var $noteTitle = $(".note-title");
 var $noteText = $(".note-textarea");
 var $saveNoteBtn = $(".save-note");
